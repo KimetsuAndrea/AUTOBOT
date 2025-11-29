@@ -1,13 +1,13 @@
 This repo is a fork from main repo and will usually have new features bundled faster than main repo (and maybe bundle some bugs, too).
 
-![20241210_183831](https://i.imgur.com/QpqujSt.jpeg)
+
 
 # Nova Facebook Chat API
 _@syntaxt0x1c_
 
 [Need help with nova-fca? Reach out on GitHub.](https://github.com/syntaxt0x1c)
 
-![Image](https://i.imgur.com/K7nxCnZ.jpeg)
+
 
 # Added features:
 * Once the error is detected it will automatically relogin the appstate.
@@ -35,9 +35,7 @@ No need to put on listenMqtt.
 
 Facebook now has an official API for chat bots [here](https://developers.facebook.com/docs/messenger-platform).
 
-# Session Account Note:
-• You can use cookies editor available in kiwi browser, edge and chrome extension for pc and i recommended use Mozila Firefox to less logout or use this website if you have no acess these broswer specially iphone os user this use Appstate Getter https://joncll.serv00.net/apst.html
------------------------------------
+
 
 This API is the only way to automate chat functionalities on a user account. We do this by emulating the browser. This means doing the exact same GET/POST requests and tricking Facebook into thinking we're accessing the website normally. Because we're doing it this way, this API won't work with an auth token but requires the credentials of a Facebook account.
 
