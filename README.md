@@ -23,7 +23,7 @@ npm install
 - `data/config.json`: Global bot config (prefix, ports, toggles).
 - `data/database.json`: Command storage/user data.
 - `data/history.json`: Action history/logs.
-- `data/session/*.json`: AppState files (cookies). Place your session JSON here, e.g. `data/session/123456789.json`.
+- `data/session/*.json`: AppState files (cookies). This puts your session JSON here, e.g. `data/session/123456789.json`.
 
 ## Running
 ```powershell
